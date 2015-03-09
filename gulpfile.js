@@ -19,3 +19,7 @@ gulp.task('html', function() {
 });
 
 gulp.task('default', ['browserify', 'html']);
+
+gulp.task('watch', ['default'], function() {
+  gulp.watch('app/*', ['default'])
+})
