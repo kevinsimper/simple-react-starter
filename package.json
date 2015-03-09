@@ -1,0 +1,27 @@
+{
+  "name": "simple-react-starter",
+  "version": "1.0.0",
+  "description": "A simple repository that gets you started on react with browserify and jsx",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevinsimper/simple-react-starter.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevinsimper/simple-react-starter/issues"
+  },
+  "homepage": "https://github.com/kevinsimper/simple-react-starter",
+  "dependencies": {
+    "browserify": "^9.0.3",
+    "gulp": "^3.8.11",
+    "react": "^0.12.2",
+    "reactify": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {}
+}
